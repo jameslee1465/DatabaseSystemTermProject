@@ -55,7 +55,7 @@
 			<div class="col-12">
     <!-- 新增資料 -->
         <form id="form1" name="form1" method="post" action="insert2.php" enctype="multipart/form-data">
-            遊戲ID:<input type="text"  size="10" name="GameID" id="textfield" />
+            <!-- 遊戲ID:<input type="text"  size="10" name="GameID" id="textfield" /> -->
             類型:<input type="text" size="10" name="GameType" id="textfield" />
             名稱:<input type="text" size="10" name="GameName" id="textfield" />
             封面圖片:<input type="text" size="10" name="Cover" id="textfield" value="https://bit.ly/2X5Ur7d" />
