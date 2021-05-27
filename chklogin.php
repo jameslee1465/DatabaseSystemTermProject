@@ -73,7 +73,7 @@
             $_SESSION['sex']=$row[7];
             $_SESSION['bd']=$row[8];
             $_SESSION['credit']=$row[9];
-            $_SESSION['class']=$row[10]; //把使用者名稱新增到session中
+            $_SESSION['class']=$row[10]; //把使用者資料新增到session中
 			$_SESSION['order'] = 0;
             echo '<script>swal("Success", "登入成功!", "success");</script>';
             if($row[10]==1)
